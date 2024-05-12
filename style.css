@@ -15,7 +15,7 @@ body {
     background-position: top right;
     padding-left: 120px;
     padding-right: 120px;
-    background-color: #F9FAFF;
+    background-color: #8b8b8b;
 }
 
 .container_header {
@@ -144,9 +144,13 @@ a:link {
     padding-top: 115px;
     padding-left: 104px;
     padding-right: 104px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
 }
 
-.container__projects h1 {
+.container_title_my_projects h1 {
     display: block;
     text-align: center;
     font-family: 'playfair display', sans-serif;
@@ -163,7 +167,8 @@ a:link {
 
 /* MY PROJECTS CONTENT */
 
-.container__projects__pjone {
+.container__projects__content__one {
+    background-color: white;
     border-radius: 24px;
     height: 524px;
     display: flex;
@@ -171,25 +176,39 @@ a:link {
     align-items: stretch; 
 }
 
-.project__one, .project__one__img {
+.container__projects__content__two {
+    background-color: white;
+    border-radius: 24px;
+    height: 524px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: stretch; 
+}
+
+.container__projects__content__three {
+    background-color: white;
+    border-radius: 24px;
+    height: 524px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: stretch; 
+}
+
+.project__text, .projects__img, .projects__img_reverse {
     flex: 1;
 }
 
-.project__one {
-    background-color: white;
-    border-top-left-radius: 24px;
-    border-bottom-left-radius: 24px;
-    padding-left: 30px;
-    padding-right: 40px;
+.project__text {
+    margin: 50px;
 }
 
-.project__one__img {
+.projects__img, .projects__img_reverse {
     flex: 1;
     overflow: hidden;
     position: relative;
 }
 
-.project__one__img img {
+.projects__img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -197,18 +216,39 @@ a:link {
     border-bottom-right-radius: 24px;
 }
 
-.project__one h2 {
-    padding: 80px;
+.projects__img_reverse {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.project__text h2 {
+    padding-top: 80px;
     font-family: 'playfair display', sans-serif;
     font-size: 40px;
     color: #25282B; 
 }
 
-.project__one p {
-    padding-top: 24px,
+.project__text p {
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-family: 'nunito', sans-serif;
     font-size: 18px;
     color: #828282; 
+}
+
+.project__button {
+    width: 150px;
+    height: 43px;
+    border-radius: 24px;
+    background-color: white;
+    border: solid 1px #25282B;
+    font-family: 'roboto', sans-serif;
+    font-size: 18px;
+    color: #25282B;
+    margin-left: 50px;
 }
 
 
