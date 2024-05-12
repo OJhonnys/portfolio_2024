@@ -112,6 +112,8 @@ a:link {
 
 .container__skills {
     padding-top: 283px;
+    padding-left: 168px;
+    padding-right: 168px;
 }
 
 .container__skills h1 {
@@ -137,8 +139,11 @@ a:link {
 
 /* MY PROJECTS */
 
+/* MY PROJECTS TITLE */
 .container__projects {
     padding-top: 115px;
+    padding-left: 104px;
+    padding-right: 104px;
 }
 
 .container__projects h1 {
@@ -156,6 +161,7 @@ a:link {
     padding-bottom: 80px;
 }
 
+/* MY PROJECTS CONTENT */
 
 .container__projects__pjone {
     border-radius: 24px;
@@ -173,6 +179,8 @@ a:link {
     background-color: white;
     border-top-left-radius: 24px;
     border-bottom-left-radius: 24px;
+    padding-left: 30px;
+    padding-right: 40px;
 }
 
 .project__one__img {
@@ -189,9 +197,7 @@ a:link {
     border-bottom-right-radius: 24px;
 }
 
-
-
-/*.project__one h2 {
+.project__one h2 {
     padding: 80px;
     font-family: 'playfair display', sans-serif;
     font-size: 40px;
@@ -199,16 +205,13 @@ a:link {
 }
 
 .project__one p {
+    padding-top: 24px,
     font-family: 'nunito', sans-serif;
     font-size: 18px;
     color: #828282; 
 }
 
-.project__one__img {
-    display: block;
-    
 
-}
 
 
 
